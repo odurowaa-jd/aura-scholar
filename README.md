@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Aura Scholar: Academic Portfolio Command Center 🎓✨
+Live Demo: [Paste your Vercel Link Here]
+Project Vision & Motivation
+I developed Aura Scholar to solve a personal challenge: the immense pressure of keeping up with complex dates, documents, and shifting deadlines while searching for schools independently. Searching for the right institution is a high-stakes research project in itself, and I realized that standard spreadsheets often lack the visual encouragement and hierarchical structure needed to maintain momentum.
+While I engineered this with my own Graduate School pursuit in mind, the architecture is intentionally inclusive. Aura Scholar is designed for any student—from high school seniors to doctoral researchers—who needs a sophisticated, stress-reducing environment to manage their academic transitions.
+Core Strategic Features
+Intelligent Analytics Hub: A real-time progression engine that calculates "Portfolio Strength" by dynamically tallying degrees, scholarships, and assistantship pursuits.
+Dynamic Success Pipeline: Applications automatically migrate between the Active Portfolio, Submission Archive, and Success Gallery based on their status, keeping the workspace focused and clutter-free.
+Hierarchical Action Stream: A unique, triple-nested daily planner (Month > Week > Day) that allows students to break down macro-academic goals into manageable daily intentions.
+Micro-Checklist Logic: Every application card features a collapsible document registry to track Statement of Purpose (SoP), transcripts, and recommendation letters without overwhelming the UI.
+Time-Sensitive Awareness: Integrated date-math logic provides real-time deadline countdowns that visually alert the student as high-priority dates approach.
+Premium Responsive UI: A custom watercolor-gradient aesthetic featuring an "Ivy-League Gold" dark mode and a high-contrast "Sage-Grey" light mode, designed to reduce "application fatigue."
+Technical Architecture
+Framework: Next.js 14 (App Router)
+State Management: Advanced React useMemo for real-time statistical analysis and useEffect for session-persistent data.
+Styling: Tailwind CSS with custom animate-in transitions, backdrop-blur effects, and mobile-first responsive grids.
+Logic: Custom-built role-based (Admin/Guest) UI logic to demonstrate secure data entry concepts.
+The Developer’s Journey
+This project represents a milestone in my self-taught path. It demonstrates my ability to take a personal pain point—the chaos of application season—and build a production-ready solution that balances complex nested data structures with a high-end, professional user experience.
