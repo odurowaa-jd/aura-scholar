@@ -23,7 +23,7 @@ interface Application {
   docs: { id: string; label: string; done: boolean }[];
 }
 
-const PRESET_DOCS = ["CV / Resume", "Statement of Purpose", "Transcripts", "Letters of Rec", "Passport", "GRE Scores"];
+const PRESET_DOCS = ["CV / Resume", "Statement of Purpose", "Transcripts", "Letters of Recommendation", "Passport", "GRE Scores", "TOEFL / IELTS Scores", "Financial Documents", "Research Proposal",];
 const QUOTES = [
   "The future is as bright as your aura today.",
   "The beautiful thing about learning is that no one can take it away from you.",
